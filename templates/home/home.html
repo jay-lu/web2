@@ -1,0 +1,17 @@
+{% load static %}
+
+<!-- link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" -->
+
+<h2>Welcome Jay's practice polling site!!</h2>
+<p>This is a practice site under construction, 这只是一个学习网站，处于建设完善中。</p>
+
+<p></p>
+<p>开始polling之前， 也许您对以下两项感兴趣：</p>
+<p>1. 练习曲</p>
+<video src="{% static "flute_nice_play.mp4" %}" width="80" height="100" preload="1" controls>
+    <p>还可以演奏得更好吗？</p>
+</video> 
+<p>2. 登台亮相</p>
+<img src="{% static 'flute_on_stage.jpg' %}" alt="台上1分钟，台下1年功" width="300" height="420"/>
+<p></p>
+<a href="polls/">好了，请去投票</a><p>
